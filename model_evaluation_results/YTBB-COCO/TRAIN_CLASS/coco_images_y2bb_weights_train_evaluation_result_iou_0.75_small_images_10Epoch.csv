@@ -1,0 +1,4 @@
+,ImageID,predict_bbox,gt_bbox,IoU_threshold,T,P,IoU,ap,mAP
+0,COCO_extracted_dataset/small_train_for_test/COCO_val2014_000000245051.jpg,[],"[{'class': 'train', 'x1': 250.51, 'x2': 279.87, 'y1': 303.55, 'y2': 316.21, 'bbox_matched': False}]",0.75,"{'train': [1, 0, 1, 1]}","{'train': [0, 0.6080141, 0, 0]}",0,[1.0],1.0
+1,COCO_extracted_dataset/small_train_for_test/COCO_val2014_000000333321.jpg,"[{'x1': 16, 'x2': 544, 'y1': 0, 'y2': 384, 'class': 'train', 'prob': 0.6080141}]","[{'class': 'train', 'x1': 79.22, 'x2': 114.24, 'y1': 405.86, 'y2': 424.37, 'bbox_matched': False}]",0.75,"{'train': [1, 0, 1, 1]}","{'train': [0, 0.6080141, 0, 0]}",0.0,[0.6666666666666666],0.6666666666666666
+2,COCO_extracted_dataset/small_train_for_test/COCO_val2014_000000508996.jpg,[],"[{'class': 'train', 'x1': 364.76, 'x2': 387.69, 'y1': 301.35, 'y2': 331.59, 'bbox_matched': False}]",0.75,"{'train': [1, 0, 1, 1]}","{'train': [0, 0.6080141, 0, 0]}",0,[0.75],0.75
