@@ -1,0 +1,17 @@
+Y2BB_extracted_dataset/train_for_test_medium/15+-6-4soyVvC4+01+0039000+1.jpg,213.6,132.6000024,281.76000000000005,194.4,train
+Y2BB_extracted_dataset/train_for_test_medium/15+-hj2q9utBhs+02+0036000+1.jpg,175.67999999999998,126.39999359999999,310.71999999999997,153.6,train
+Y2BB_extracted_dataset/train_for_test_medium/15+-yMI3k70zIU+00+0019000+1.jpg,269.76000000000005,93.60000000000001,341.76000000000005,142.8000048,train
+Y2BB_extracted_dataset/train_for_test_medium/15+0DwhUrmEAws+00+0076000+1.jpg,276.48,168.5999988,317.76,198.00000000000003,train
+Y2BB_extracted_dataset/train_for_test_medium/15+16XQgOKblqs+01+0143000+1.jpg,190.72,86.39999999999999,315.2,146.000004,train
+Y2BB_extracted_dataset/train_for_test_medium/15+1_xfocbatMQ+01+0029000+1.jpg,253.44,100.80000000000001,319.67999999999995,146.4000012,train
+Y2BB_extracted_dataset/train_for_test_medium/15+1e8KB4IqkpA+05+0335000+1.jpg,118.08000000000001,203.39999999999998,193.92,313.8000012,train
+Y2BB_extracted_dataset/train_for_test_medium/15+1n_jnfJVPzs+00+0012000+1.jpg,166.4,137.59999200000001,258.56,208.8,train
+Y2BB_extracted_dataset/train_for_test_medium/15+1n_jnfJVPzs+00+0013000+1.jpg,143.35999999999999,138.799992,239.68000000000004,210.4000008,train
+Y2BB_extracted_dataset/train_for_test_medium/15+1tIKB6FZ5bY+00+0059000+1.jpg,202.56000000000003,120.00000239999999,255.83999999999997,198.600012,train
+Y2BB_extracted_dataset/train_for_test_medium/15+235NI9CNNYs+00+0020000+1.jpg,14.399999999999999,69.1999992,122.24000000000001,109.6000032,train
+Y2BB_extracted_dataset/train_for_test_medium/15+235NI9CNNYs+00+0024000+1.jpg,16.32,68.39999999999999,120.0,111.60000000000001,train
+Y2BB_extracted_dataset/train_for_test_medium/15+235NI9CNNYs+00+0030000+1.jpg,34.88,80.4,128.32,128.800008,train
+Y2BB_extracted_dataset/train_for_test_medium/15+28DJ1IafNdA+03+0364000+1.jpg,254.88000000000002,167.4,308.16,216.600012,train
+Y2BB_extracted_dataset/train_for_test_medium/15+2Oau4Ai7QJc+01+0045000+1.jpg,0.0,61.2,43.199999999999996,176.4,train
+Y2BB_extracted_dataset/train_for_test_medium/15+306to7SV1Tc+00+0240000+1.jpg,170.03,155.4000012,253.82000000000002,221.4,train
+Y2BB_extracted_dataset/train_for_test_medium/15+3T1_hat2TUg+06+0351000+1.jpg,244.32,165.0000024,350.88,212.39999999999998,train

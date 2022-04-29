@@ -1,0 +1,2 @@
+Y2BB_extracted_dataset/airplane_for_test_small/13+1ofKqFardDM+01+0030000+1.jpg,177.79199999999997,101.75999616,190.848,112.80000384,airplane
+Y2BB_extracted_dataset/airplane_for_test_small/13+2ifMPiPpxKo+00+0464000+1.jpg,145.376,148.32,175.296,163.19999808,airplane

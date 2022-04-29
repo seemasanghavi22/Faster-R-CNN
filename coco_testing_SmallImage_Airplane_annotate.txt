@@ -1,0 +1,16 @@
+COCO_extracted_dataset/small_airplane_for_test/COCO_val2014_000000138755.jpg,352.77,228.71,366.94,232.36,airplane
+COCO_extracted_dataset/small_airplane_for_test/COCO_val2014_000000339022.jpg,188.4,16.65,202.39,21.08,airplane
+COCO_extracted_dataset/small_airplane_for_test/COCO_val2014_000000232455.jpg,422.67,108.7,444.58,118.57,airplane
+COCO_extracted_dataset/small_airplane_for_test/COCO_val2014_000000345329.jpg,471.77,226.32,503.99,236.31,airplane
+COCO_extracted_dataset/small_airplane_for_test/COCO_val2014_000000111830.jpg,327.17,229.91,363.33,239.26,airplane
+COCO_extracted_dataset/small_airplane_for_test/COCO_val2014_000000400922.jpg,379.75,124.3,407.25,139.13,airplane
+COCO_extracted_dataset/small_airplane_for_test/COCO_val2014_000000062685.jpg,553.78,82.28,585.01,96.29,airplane
+COCO_extracted_dataset/small_airplane_for_test/COCO_val2014_000000233090.jpg,207.4,85.26,241.82,98.31,airplane
+COCO_extracted_dataset/small_airplane_for_test/COCO_val2014_000000537631.jpg,241.01,15.3,265.75,34.31,airplane
+COCO_extracted_dataset/small_airplane_for_test/COCO_val2014_000000474215.jpg,243.96,74.74,271.79,92.02,airplane
+COCO_extracted_dataset/small_airplane_for_test/COCO_val2014_000000435692.jpg,396.87,243.95,428.02,260.79,airplane
+COCO_extracted_dataset/small_airplane_for_test/COCO_val2014_000000551650.jpg,490.65,224.54,518.18,244.25,airplane
+COCO_extracted_dataset/small_airplane_for_test/COCO_val2014_000000296265.jpg,327.24,205.61,372.11,221.64,airplane
+COCO_extracted_dataset/small_airplane_for_test/COCO_val2014_000000151081.jpg,367.66,84.0,423.04,98.05,airplane
+COCO_extracted_dataset/small_airplane_for_test/COCO_val2014_000000293749.jpg,329.02,208.72,376.72,225.66,airplane
+COCO_extracted_dataset/small_airplane_for_test/COCO_val2014_000000525371.jpg,84.33,15.04,123.98,36.48,airplane

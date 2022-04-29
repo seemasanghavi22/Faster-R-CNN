@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[ ]:
+DEMO_ANNOTATION_DATA = 'test_sample.csv'
+
+POSITIVE_THRESHOLD = 0.5
+NEGATIVE_THRESHOLD = 0.1
+IOU_THRESHOLD = 0.5
+GRID_WIDTH = 16  
+GRID_HEIGHT = 16
+IMAGE_HEIGHT = 720
+IMAGE_WIDTH = 960
