@@ -23,3 +23,10 @@ This folder stores evaluation results of Faster R-CNN for Train and AirPlane cla
 This folder stores the config pickle file for Train and AirPlane class.
 ### model_weights
 This folder stores the checkpoints of Train and AirPlane class for same domain (COCO-COCO, YTBB-YTBB) and transfer domain cases (COCO-YTBB, YTBB-COCO) for IoU=50% and 75%.
+### annotation files
+Set of files, which has COCO/YTBB dataset images with bounding box details
+### training, testing (bounding box) and evaluation (metrics) Jupyter Notebooks
+Set of jupyter notebooks created for same domain (COCO-COCO, YTBB-YTBB) and transfer domain (COCO-YTBB, YTBB-COCO) for: </br>
+Training the models
+Creating bounding boxes
+Finding accuracy over IoU = 0.5 and 0.75
