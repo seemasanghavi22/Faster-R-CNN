@@ -27,6 +27,6 @@ This folder stores the checkpoints of Train and AirPlane class for same domain (
 Set of files, which has COCO/YTBB dataset images with bounding box details
 ### training, testing (bounding box) and evaluation (metrics) Jupyter Notebooks
 Set of jupyter notebooks created for same domain (COCO-COCO, YTBB-YTBB) and transfer domain (COCO-YTBB, YTBB-COCO) for: </br>
-Training the models
-Creating bounding boxes
-Finding accuracy over IoU = 0.5 and 0.75
+Training the models </br>
+Creating bounding boxes  </br>
+Finding accuracy over IoU = 0.5 and 0.75  </br>
