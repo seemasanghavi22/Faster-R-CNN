@@ -1,5 +1,5 @@
 # Faster-R-CNN
-This repository is created to study object detection model performance for video dataset. It stores all the code and outcome required for Paper Reproduction for the paper below: </br>
+This repository is created to study Faster R-CNN object detection model performance for video dataset. It stores all the code and outcome required for Paper Reproduction for the below references: </br>
 [1] Esteban Real, Jonathon Shlens, Stefano Mazzocchi, Xin Pan, Vincent
 Vanhoucke. YouTube-BoundingBoxes: A Large High-Precision HumanAnnotated Data Set for Object Detection in Video, IEEE, 2017. </br>
 [2] Enoch Arulprakash, Martin Aruldoss. A study on generic object detection with emphasis on future research directions. Journal of King Saud
@@ -25,7 +25,7 @@ Improved accuracy as compared to R-CNN and Fast R-CNN. <br />
 ### Disadvantage
 Training is complicated, not efficient for real time applications. </br>
 ## Model Training Methodology
-Faster R-CNN is trained on pre-trained ResNet50 to get the advantage of Transfer Learning. </br>
+Faster R-CNN is trained on a pre-trained ResNet50 to get the advantage of Transfer Learning. </br>
 Training was done on COCO and YTBB Datasets of 1000 images each with 5 Epoch and 10 Epoch. </br>
 New weights were generated for testing purpose - Checkpoints for 5 Epoch and 10 Epochs </br>
 ## Model Evaluation Methodology
@@ -55,7 +55,7 @@ This folder stores the checkpoints of Train and AirPlane class for same domain (
 ### Folder annotation files
 Set of files, which has COCO/YTBB dataset images with bounding box details
 ### faster_rcnn_data_preprocessing.jpynb
-This was used to do data pre-processing for COCO and YTBB boundinng boxes csv files to create Annotation files required for Faster R-CNN.
+This was used to do data pre-processing for COCO and YTBB boundinng boxes csv files to create annotation files required for Faster R-CNN.
 ### training, testing (bounding box) and evaluation (metrics) Jupyter Notebooks
 Set of jupyter notebooks created for same domain (COCO-COCO, YTBB-YTBB) and transfer domain (COCO-YTBB, YTBB-COCO) for: </br>
 Training the models - 4 Files </br>
