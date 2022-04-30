@@ -14,21 +14,21 @@ In the next step, a Region of Interest (RoI) pooling layer is applied on these p
 Finally, the proposals are passed to a fully connected layer which has a SoftMax layer and a linear regression layer at its top, to classify and output the bounding boxes for objects. </br>
 Faster R-CNN uses RPN (region proposal network) to generate effective and efficient region proposals. </br>
 Also, its accuracy is higher than R-CNN and Fast R-CNN. However, Training Faster R-CNN is complicated, not efficient for real time applications. </br>
-## Model Algorithm:
+### Model Algorithm:
 Feed the input image to the CNN to generate a convolutional feature map.<br />
 Region proposal network is applied on these feature maps. This returns the object proposals along with their objectness score.<br />
 A Region of Interest (RoI) pooling layer is applied on these proposals to bring down all the proposals to the same size.<br />
 Finally, the proposals are passed to a fully connected layer which has a SoftMax layer and a linear regression layer at its top, to classify and output the bounding boxes for objects.<br />
-## Advantages
+### Advantages
 Propose RPN for generating effective & efficient REGION PROPOSALs, replacement of selective search. <br />
 Improved accuracy as compared to R-CNN and Fast R-CNN. <br />
-## Disadvantage
+### Disadvantage
 Training is complicated, not efficient for real time applications. </br>
-## Training Methodology
+## Model Training Methodology
 Faster R-CNN is trained on pre-trained ResNet50 to get the advantage of Transfer Learning. </br>
 Training was done on COCO and YTBB Datasets of 1000 images each with 5 Epoch and 10 Epoch. </br>
 New weights were generated for testing purpose - Checkpoints for 5 Epoch and 10 Epochs </br>
-## Evaluation Methodology
+## Model Evaluation Methodology
 Faster R-CNN is evaluated on COCO/YTBB models - to check AP accuracy and Bounding Box accuracy. </br>
 Evaluation was done on COCO and YTBB Test Datasets of 300 images each - using 5 epoch and 10 epoch checkpoints. </br>
 Test results was saved. </br>
