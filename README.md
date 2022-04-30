@@ -53,11 +53,59 @@ This folder stores the config pickle file for Train and AirPlane class.
 ### Folder model_weights
 This folder stores the checkpoints of Train and AirPlane class for same domain (COCO-COCO, YTBB-YTBB) and transfer domain cases (COCO-YTBB, YTBB-COCO) for IoU=50% and 75%.
 ### Folder annotation files
-Set of files, which has COCO/YTBB dataset images with bounding box details
+Set of files, which has COCO/YTBB dataset images with bounding box details, a pre-requisite for Faster R-CNN model code.
 ### faster_rcnn_data_preprocessing.jpynb
 This was used to do data pre-processing for COCO and YTBB boundinng boxes csv files to create annotation files required for Faster R-CNN.
 ### training, testing (bounding box) and evaluation (metrics) Jupyter Notebooks
 Set of jupyter notebooks created for same domain (COCO-COCO, YTBB-YTBB) and transfer domain (COCO-YTBB, YTBB-COCO) for: </br>
-Training the models - 4 Files </br>
-Creating bounding boxes - 4 Files  </br>
-Finding accuracy over IoU = 0.5 and 0.75 - 32 Files </br>
+#### Training the models - 8 Files </br>
+Faster-RCNN-YTBB-TrainClass-Training-10Epoch.jpynb </br>
+Faster-RCNN-YTBB-AirplaneClass-Training-10Epoch.jpynb </br>
+Faster-RCNN-COCO-TrainClass-Training-10Epoch.jpynb </br>
+Faster-RCNN-COCO-AirPlaneClass-Training-10Epoch.jpynb </br>
+train_faster_rcnn-COCO-AIRPLANE-VEHICLE.jpynb </br>
+train_faster_rcnn-COCO-TRAIN-VEHICLE.jpynb </br>
+train_faster_rcnn-Y2BB-AIRPLANE-VEHICLE.jpynb </br>
+train_faster_rcnn-Y2BB-TRAIN-VEHICLE.jpynb </br>
+#### Testing the model for bounding boxes - 4 Files </br>
+test_faster_rcnn-Y2BB-TRAIN-VEHICLE.jpynb </br>
+test_faster_rcnn-Y2BB-AIRPLANE-VEHICLE.jpynb </br>
+test_faster_rcnn-COCO-TRAIN-VEHICLE.jpynb </br>
+test_faster_rcnn-COCO-AIRPLANE-VEHICLE.jpynb </br>
+#### Testing the model for finding accuracy over IoU = 0.5 and 0.75 - 32 Files </br>
+evaluate_faster_rcnn-YTBBModel-YTBBImages-TRAIN-VEHICLE.jpynb  </br>
+evaluate_faster_rcnn-YTBBModel-YTBBImages-TRAIN-VEHICLE-Small_Images.jpynb  </br>
+evaluate_faster_rcnn-YTBBModel-YTBBImages-TRAIN-VEHICLE-Medium_Images.jpynb  </br>
+evaluate_faster_rcnn-YTBBModel-YTBBImages-TRAIN-VEHICLE-Large_Images.jpynb  </br>
+evaluate_faster_rcnn-YTBBModel-YTBBImages-AIRPLANE-VEHICLE.jpynb  </br>
+evaluate_faster_rcnn-YTBBModel-YTBBImages-AIRPLANE-VEHICLE-Small_Images.jpynb  </br>
+evaluate_faster_rcnn-YTBBModel-YTBBImages-AIRPLANE-VEHICLE-Medium_Images.jpynb  </br>
+evaluate_faster_rcnn-YTBBModel-YTBBImages-AIRPLANE-VEHICLE-Large_Images.jpynb  </br>
+evaluate_faster_rcnn-COCOModel-COCOImages-AIRPLANE-VEHICLE.jpynb  </br>
+evaluate_faster_rcnn-COCOModel-COCOImages-AIRPLANE-VEHICLE-Small_Images.jpynb  </br>
+evaluate_faster_rcnn-COCOModel-COCOImages-AIRPLANE-VEHICLE-Medium_Images.jpynb  </br>
+evaluate_faster_rcnn-COCOModel-COCOImages-AIRPLANE-VEHICLE-Large_Images.jpynb  </br>
+evaluate_faster_rcnn-COCOModel-COCOImages-TRAIN-VEHICLE.jpynb  </br>
+evaluate_faster_rcnn-COCOModel-COCOImages-TRAIN-VEHICLE-Small_Images.jpynb  </br>
+evaluate_faster_rcnn-COCOModel-COCOImages-TRAIN-VEHICLE-Medium_Images.jpynb  </br>
+evaluate_faster_rcnn-COCOModel-COCOImages-TRAIN-VEHICLE-Large_Images.jpynb  </br>
+evaluate_faster_rcnn-COCOModel-YTBBImages-TRAIN-VEHICLE.jpynb  </br>
+evaluate_faster_rcnn-COCOModel-YTBBImages-TRAIN-VEHICLE-Small_Images.jpynb  </br>
+evaluate_faster_rcnn-COCOModel-YTBBImages-TRAIN-VEHICLE-Medium_Images.jpynb  </br>
+evaluate_faster_rcnn-COCOModel-YTBBImages-TRAIN-VEHICLE-Large_Images.jpynb  </br>
+evaluate_faster_rcnn-COCOModel-YTBBImages-AIRPLANE-VEHICLE.jpynb  </br>
+evaluate_faster_rcnn-COCOModel-YTBBImages-AIRPLANE-VEHICLE-Small_Images.jpynb  </br>
+evaluate_faster_rcnn-COCOModel-YTBBImages-AIRPLANE-VEHICLE-Medium_Images.jpynb  </br>
+evaluate_faster_rcnn-COCOModel-YTBBImages-AIRPLANE-VEHICLE-Large_Images.jpynb  </br>
+evaluate_faster_rcnn-YTBBModel-COCOImages-TRAIN-VEHICLE.jpynb  </br>
+evaluate_faster_rcnn-YTBBModel-COCOImages-TRAIN-VEHICLE-Small_Images.jpynb  </br>
+evaluate_faster_rcnn-YTBBModel-COCOImages-TRAIN-VEHICLE-Medium_Images.jpynb  </br>
+evaluate_faster_rcnn-YTBBModel-COCOImages-TRAIN-VEHICLE-Large_Images.jpynb  </br>
+evaluate_faster_rcnn-YTBBModel-COCOImages-AIRPLANE-VEHICLE.jpynb  </br>
+evaluate_faster_rcnn-YTBBModel-COCOImages-AIRPLANE-VEHICLE-Small_Images.jpynb  </br>
+evaluate_faster_rcnn-YTBBModel-COCOImages-AIRPLANE-VEHICLE-Medium_Images.jpynb  </br>
+evaluate_faster_rcnn-YTBBModel-COCOImages-AIRPLANE-VEHICLE-Large_Images.jpynb  </br>
+
+###### NOTE: These Jupyter Notebooks can be run, provided folder structure is maintained.
+It also needs YTBB and COCO Datasets, which are not uploaded in this github repository due to space constraint. </br>
+But results are saved in the notebook. </br>
