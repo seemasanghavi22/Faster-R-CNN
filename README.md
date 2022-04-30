@@ -1,5 +1,5 @@
 # Faster-R-CNN
-This repository is created for an NUS-DSA5204 project report to study object detection model performance for video dataset. It stores all the code and outcome required for Paper Reproduction for the paper below: </br>
+This repository is created to study object detection model performance for video dataset. It stores all the code and outcome required for Paper Reproduction for the paper below: </br>
 [1] Esteban Real, Jonathon Shlens, Stefano Mazzocchi, Xin Pan, Vincent
 Vanhoucke. YouTube-BoundingBoxes: A Large High-Precision HumanAnnotated Data Set for Object Detection in Video, IEEE, 2017. </br>
 [2] Enoch Arulprakash, Martin Aruldoss. A study on generic object detection with emphasis on future research directions. Journal of King Saud
