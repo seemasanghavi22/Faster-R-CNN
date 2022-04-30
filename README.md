@@ -1,12 +1,19 @@
 # Faster-R-CNN
 This repository is created for an NUS-DSA5204 project report to study object detection model performance for video dataset. It stores all the code and outcome required for Paper Reproduction for the paper below: </br>
 [1] Esteban Real, Jonathon Shlens, Stefano Mazzocchi, Xin Pan, Vincent
-Vanhoucke. YouTube-BoundingBoxes: A Large High-Precision HumanAnnotated Data Set for Object Detection in Video, IEEE, 2017. </br>
-[2] Enoch Arulprakash, Martin Aruldoss. A study on generic object detection with emphasis on future research directions. Journal of King Saud
+Vanhoucke. YouTube-BoundingBoxes: A Large High-Precision HumanAnnotated Data Set for Object Detection in Video, IEEE, 2017. </br>
+[2] Enoch Arulprakash, Martin Aruldoss. A study on generic object detection with emphasis on future research directions. Journal of King Saud
 University - Computer and Information Sciences. 2021 </br>
 
 ## Faster R-CNN Model
-Faster R-CNN is a two-stage detection framework (with object proposals). The model first feeds its input to a CNN (Resnet50) to generate feature maps. Then, Region proposal network is applied to these feature maps. This returns the object proposals along with their labels. In the next step, a Region of Interest (RoI) pooling layer is applied on these proposals to bring down all the proposals to the same size. Finally, the proposals are passed to a fully connected layer which has a SoftMax layer and a linear regression layer at its top, to classify and output the bounding boxes for objects. Faster R-CNN uses RPN (region proposal network) to generate effective and efficient region proposals. Also, its accuracy is higher than R-CNN and Fast R-CNN. However, Training Faster R-CNN is complicated, not efficient for real time applications
+Faster R-CNN is a two-stage detection framework (with object proposals). </br>
+The model first feeds its input to a CNN (Resnet50) to generate feature maps. </br>
+Then, Region proposal network is applied to these feature maps. </br>
+This returns the object proposals along with their labels. </br>
+In the next step, a Region of Interest (RoI) pooling layer is applied on these proposals to bring down all the proposals to the same size. </br>
+Finally, the proposals are passed to a fully connected layer which has a SoftMax layer and a linear regression layer at its top, to classify and output the bounding boxes for objects. </br>
+Faster R-CNN uses RPN (region proposal network) to generate effective and efficient region proposals. </br>
+Also, its accuracy is higher than R-CNN and Fast R-CNN. However, Training Faster R-CNN is complicated, not efficient for real time applications. </br>
 ## Model Algorithm:
 Feed the input image to the CNN to generate a convolutional feature map.<br />
 Region proposal network is applied on these feature maps. This returns the object proposals along with their objectness score.<br />
